@@ -28,7 +28,7 @@ O comando irá baixar todas dependências do projeto e criar um diretório. Assi
 
 Para executar o projeto é necessario criar uma DataBase com o nome "aulajpa" no MySql para que possamos inciar com o JPA
 
-# MySql
+### MySql
 ```shell
 create database aulajpa;
 ```
