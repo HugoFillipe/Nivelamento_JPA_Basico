@@ -13,26 +13,24 @@ Para executar o projeto, será necessário instalar os seguinte programa:
 - [Java JDK 11: Versão  do Java que a aplicação foi baseada](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html)
 - [Apache: Servidor usado](https://httpd.apache.org/download.cgi)
 
-## Desenvolvimento
+## Configurações
 
-Para iniciar o desenvolvimento, é necessário Baixar os arquivos e colocar no Spring tool
+Após Baixar os arquivos e colocar no Spring tool e Ativar o Apache e o MySql no Xampp.
 
-```shell
-cd "diretorio de sua preferencia"
-git clone git@github.com:HugoFillipe/calculadora_Avancada.git
-```
-
-O comando irá baixar todas dependências do projeto e criar um diretório. Assim podendo executar o codigo em algum navegador, se alguma coisa falhar, o console do proprio navegador vai acusar o erro.
-
-## Configuração
-
-Para executar o projeto é necessario criar uma DataBase com o nome "aulajpa" no MySql para que possamos inciar com o JPA
+Para o projeto é necessario criar uma DataBase com o nome "aulajpa" no MySql para que possamos inciar com o JPA
 
 ### MySql
 ```shell
 create database aulajpa;
 ```
 
+Após o Data base dê **Run** na aplicação 
+
+e consulte seu Banco de dados com os 3 usuarios dentro da nova tabela **pessoa**
+
+
 ## Finalidade
 
-Primeiro programa feito com alguns problemas ... em breve atualizações.
+Um programa simples que alimenta o banco de dados com 3 usuarios usando o JPA.
+
+Exercitando conceitos basícos de JPA com finalidade de aprender o conceito de mapeamento de dados no MySql.
